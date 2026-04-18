@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif+TC:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+  
+  --color-warm-cream: #f5f5f0;
+  --color-warm-olive: #5A5A40;
+  --color-warm-accent: #e67e22;
+  --color-warm-soft: #fdfcf9;
+}
+
+@layer base {
+  body {
+    @apply bg-warm-cream text-gray-800 font-sans antialiased;
+  }
+}
+
